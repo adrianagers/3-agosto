@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('layouts.plantilla');
 });
 
+
+// las rutas
 Route::get('inicio', function () {
     return view('inicio');
 });
